@@ -67,3 +67,25 @@
     border-radius: 25%;
     width: 50% ;
 }
+/* ESERCIZIO 10 */
+
+@keyframes giro {
+    0%{
+        transform: rotate(0);
+    }
+   25%{
+        transform: rotate(90deg);
+    } 
+    50%{
+        transform: rotate(180deg);
+    }
+   75%{
+        transform: rotate(270deg);
+    } 
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.ex-10-icon{
+    animation:giro 5s linear 3;
+}
