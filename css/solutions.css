@@ -58,3 +58,12 @@
     filter:saturate(2)contrast(3);
     border-radius: 20px;
 }
+/*  ESERCIZIO 9 */
+.ex-9-img {
+    transition: all 3s ease-in-out;
+}
+.ex-9-img:hover{
+    filter: sepia(1)contrast(2);
+    border-radius: 25%;
+    width: 50% ;
+}
