@@ -19,3 +19,10 @@
 .ex-3-square:hover{
     border-radius: 100%;
 }
+/* ESERCIZIO 4 */
+.ex-4-square{
+    transition: all 5s ease-in;
+}
+.ex-4-square:hover{
+    background-color: transparent;    
+}
