@@ -38,3 +38,15 @@
     width: 40px;
     height: 40px;
 }
+/* esercizio 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/*  ESERCIZIO 6 */
+.ex-7-img{
+    transition: all 3s ease;
+}
+.ex-7-img:hover{
+    filter:sepia(1)saturate(3);
+}
