@@ -89,3 +89,18 @@
 .ex-10-icon{
     animation:giro 5s linear 3;
 }
+/* ESERCIZIO 11 */
+@keyframes ping {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0) ;
+    }
+}
+.ex-11-icon:hover{
+    animation:ping 5s linear 5;
+}
