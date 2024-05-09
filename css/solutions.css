@@ -196,8 +196,8 @@
   }
 }
 .ex-13-top-white {
-  animation: top-rotation 5s linear 1;
+  animation: top-rotation 5s linear 2 alternate;
 }
 .ex-13-bottom-white {
-  animation: button-rotation 5s linear 1;
+  animation: button-rotation 5s linear 2 alternate;
 }
